@@ -1,5 +1,4 @@
 """
-@felipeares
 This script runs every hour in an Amazon AWS EC2 ubuntu instance and load de scanned data into an S3 public reading bucket (with some historic files). It also saves into the EC2 instance a full screen shot of the last scan and some always usefull logs. It takes arround 115 (+20 for banners for each site) seconds mainly waiting for each site to load into the chrome browser.
 """
 
